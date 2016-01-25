@@ -1,0 +1,50 @@
+#para-pl {
+	width: 1103px;
+    height: 100px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #00CD00;
+    margin-left: -10px;
+}
+
+#img-play {
+	float: left;
+}
+
+#nome-music {
+	background-color: #00CD00;
+	width: 450px;
+	margin-left: 5px;
+	float: left;
+}
+
+#tags-play {
+    float: left;
+    margin-left: 5px;
+    background-color: #00CD00;
+    margin-top: 6px;
+    padding: 5px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.tags-ritmo {
+    background-color: rgb(73, 171, 17);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+#time-play {
+    float: left;
+    margin-top: 19px;
+    margin-left: -450px;
+}
+
+#temp-esc {
+    float: right;
+    margin-left: 4px;
+}
+
+#temp {
+    float: left;
+}

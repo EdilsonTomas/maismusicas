@@ -1,0 +1,85 @@
+ @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 14px; 
+	color: #666;
+	}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	background-image: url('../img/bg.png');
+	width: 826px;
+	height: 506px;
+}
+
+.login {
+
+}
+
+.acess {
+	width: 360px;
+	height: 45px;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 190px;
+	margin-top: 90px;
+	float: left;
+	border-bottom: dotted 2px black;
+}
+
+#cont-login {
+	width: 722px;
+	height: 100px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#mail {
+	width: 712px;
+	height: 35px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 0px 2px #000;
+    transition: box-shadow 0.3s ease 0s;
+}
+
+#passw {
+	width: 712px;
+	height: 35px;
+	margin-top: 15px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 0px 2px #000;
+    transition: box-shadow 0.3s ease 0s;
+}
+
+#login-fb {
+	float: left;
+	margin-top: 15px;
+}
+
+#outer-bx {
+	float: left;
+}
+
+#outer-bx-dt {
+	float: right;
+	margin-top: -18px;
+}
+
+.bot-entrar {
+	background-color: #52cd0b;
+	color: black;
+	border-radius: 10px;
+	padding: 5px;
+}

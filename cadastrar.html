@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <title>Mais Músicas</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/album.css" rel="stylesheet">
+    <link href="css/moon/style.css" rel="stylesheet">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav class="navbar navbar-default no-margin">
+    <!-- Marca e alternância se agrupados para melhor visualização móvel -->
+                <div class="navbar-header fixed-brand">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+                      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+                    </button>
+                    <a href="http://maismusica.com.br/"><img id="logo-top" title="Voltar a página inicial!" src="img/logo.png"/></a>
+                </div><!-- navbar-header-->
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></button></li>
+                            </ul>
+
+                            <div id="buscar">
+                            <div id="divBusca">
+                                <input type="text" id="txtBusca" placeholder="Pesquise seu artista, show ou banda aqui.."/>
+                            <i class="fa fa-search" alt="Buscar..." id="btnBusca"></i>
+                            </div>
+                            </div>
+
+                            <div id="log-cadas">
+                            <ul id="lg-cd">
+                                <a href=""><li class="entrar">Entrar</li></a>
+                                <i><li class="ouu">ou</li></i>
+                                <a href=""><li class="cadastrar">Cadastrar</li></a>
+                            </ul>
+                            </div>
+
+                </div><!-- bs-example-navbar-collapse-1 -->
+
+    </nav>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+
+            <!-- INICIO DO UM -->
+                <li class="active">
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-headphones2"></i></span> Principal</a>
+                       <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-star-full"></i></span>Artistas</a>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-heart"></i></span>Sentimento</a>
+                </li>
+                <li>
+                    <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="icon-music"></i></span>Estilos</a>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-disk"></i></span>Músicas</a>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-headphones"></i></span>Shows</a>
+                </li>
+                <!-- FIM DO UM -->
+
+                <!-- INICIO DO DOIS -->
+                <li class="active">
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-menu4"></i></span> Playlists<i class="icon-plus4 pplaayl"></i></a>
+                       <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x"></i></span>Nossas Playlists</a>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x"></i></span>Minhas Playlists</a>
+                </li>
+                <li>
+                    <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="icon-volume-medium"></i></span>Ouvindo</a>
+                </li>
+                <!-- FIM DO DOIS -->
+
+                <!-- INICIO DO TRÊS -->
+                <li class="active">
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-checkmark4"></i></span>Nossas Redes Sociais</a>
+                       <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link2</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-social-facebook"></i></span>Facebook</a>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="icon-social-twitter"></i></span>Twitter</a>
+                </li>
+                <li>
+                    <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="icon-instagram3"></i></span>Instagram</a>
+                </li>
+                <!-- FIM DO TRÊS -->
+
+
+            </ul>
+        </div><!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid xyz">
+
+                <div id="container-centro">
+                    <img id="sombra-top" src="img/sombra-cima.png" height="66" width="1023">
+                    <a href="#"><img src="img/top.png"></a>
+                    <img id="sombra-end" src="img/sombra-baixo.png" height="66" width="1023">
+
+                    <div id="cadastrar">
+                        <form>
+
+                            <a href="cadastrar-via-facebook">
+                            <img src="img/cadastro-fb.png">
+                        </a>
+                        <br>
+                        <label>
+                                <input type="checkbox" name="end-cadas">
+                                 Eu li e concordo com is <a href="termos">termos de utilização</a> do site.
+                             </label>
+
+
+                            <h2>DADOS DO USUÁRIO:</h2>
+
+        
+                                <label> 
+                                    <label>Nome do Usuário*</br>
+                                    (aparecerá no perfil, shows):</label>
+                                    <br>
+                                    <input type="text" class="input_text" name="nome" id="name"/>
+                                </label>
+
+                                <label> 
+                                    <label>Link do seu Site/Blog:</label>
+                                    <br>
+                                    <input type="text" class="input_text" name="url-site" id="url-site"/>
+                                </label>
+
+                                <label>
+                                    <label>Data de Nascimento:* </label>
+                                    <br>
+                                    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+                                   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+                                   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+                                </label>
+
+                                <label>
+                                    <label>Seu Facebook:</label>
+                                    <br>
+                                    <input type="text" class="input_text" name="seu-fb" id="seu-fb" placeholder="/Facebook"/>
+                                </label>
+
+
+                                <label>
+                                    <label>Sexo: *</label>
+                                    <br>
+                                    <select name="sexo" class="input-block-level">
+                                    <option value="n">Selecione: *</option>
+                                    <option value="0">Masculino</option>
+                                    <option value="1">Feminino</option>
+                                    </select>
+                                </label>
+
+                                <label>
+                                    <label>Seu Instagram:</label>
+                                    <br>
+                                    <input type="text" class="input_text" name="seu-inst" id="seu-inst" placeholder="@NomeDeUsuario"/>
+                                </label>
+
+
+                                <h2>DADOS DA CONTA:</h2>
+
+                                <label>
+                                    <label>Email: *</label>
+                                    <br>
+                                    <input type="text" class="input_text" name="email" id="email"/>
+                                 </label>
+
+                                 <label>
+                                    <label>Confirme o Email: *</label>
+                                    <br>
+                                    <input type="text" class="input_text" name="confirm-email" id="confirm-email"/>
+                                 </label>
+
+                                 <label>
+                                     <label>Senha: *</label>
+                                     <br>
+                                     <input type="password" name="pass">
+                                 </label>
+
+                                 <label>
+                                     <label>Confirme a Senha: *</label>
+                                     <br>
+                                     <input type="password" name="pass">
+                                 </label>
+
+                                 <label>
+                                    <label>Tipo de Usuário: *</label>
+                                    <br>
+                                    <select name="sexo" class="input-block-level">
+                                    <option value="n">Selecione: *</option>
+                                    <option value="0">Divulgador</option>
+                                    <option value="1">Artista/Banda</option>
+                                    </select>
+                                </label>
+
+
+
+                                <label>
+                                    <input type="checkbox" name="end-cadas">
+                                     Eu li e concordo com is <a href="termos">termos de utilização</a> do site.
+                                 </label>
+
+                                 <input type="submit" value="CRIAR CONTA">
+
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sidebar_menu.js"></script>
+</body>
+
+</html>

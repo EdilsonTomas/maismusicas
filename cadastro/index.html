@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>  
+  <meta charset="utf-8" />
+  <title>Música da Hora - Cadastro</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="Música da Hora - Cadastro" name="title" />
+    <meta content="Cadastro" name="description" />
+    
+    <meta content="baixar musicas sertanejas,baixar musicas gratis,baixar musicas avioes do forro 2015,baixar musicas avioes do forro 2016,novo cd,musica pra baixar, baixar a musica, baixar mp3, cd wesley safadao, wesley safadao 2015, wesley safadao musica, baixar palco mp3,china cds, palco mp3 avioes,musicas de forro, cuida bem dela, ate voce voltar, baixar henrique e juliano,baixar musica gospel, baixar gospel, gospel ouvir,Música da Hora, Sempre Música, Música Prime, Música, Forró, Sertanejo, Download, Baixar, Baixar CD, Baixar Show, Wesley Safadão, Aviões do Forró, Garota Safada, Cavaleiros do Forró, Forró da Pegação, Forró Pegado, Forró Escutar, Solteirões, Avião, Gabriel Diniz" name="keywords" />
+
+    <meta property="og:title" content="Música da Hora - Cadastro" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="pt_BR" />
+        
+    <meta property="og:url" content="http://www.musicadahora.com/cadastro/" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Música da Hora" />
+    <meta property="article:author" content=""/>
+    <meta property="article:publisher" content="https://www.facebook.com/sitemusicadahora" />
+    <meta property="fb:app_id" content="728472007261374" />
+    <meta name="google-site-verification" content="mCrWNS4h_yVw9i8IUQxc5JxMNRH1l3W1k-22rm705g8" />
+    <meta name="msvalidate.01" content="51739A64B4843E6DD08E639F28B3AF86" />
+
+    <link rel="stylesheet" href="http://www.musicadahora.com/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.musicadahora.com/css/animate.css" type="text/css" />
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.musicadahora.com/css/simple-line-icons.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.musicadahora.com/css/font.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.musicadahora.com/css/app.css" type="text/css" />
+
+    <link href="http://www.musicadahora.com/css/ekko-lightbox.css" rel="stylesheet">
+    <link href="http://www.musicadahora.com/css/dark.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://www.musicadahora.com/js/datatables/datatables.css" type="text/css">
+    <link rel="stylesheet" href="http://www.musicadahora.com/js/chosen/chosen.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.musicadahora.com/js/datepicker/datepicker.css" type="text/css" />
+    <link href="http://www.musicadahora.com/js/file-input/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" href="http://www.musicadahora.com/images/dahoraico.jpg" type="image/x-icon">
+    <link rel="icon" href="http://www.musicadahora.com/images/dahoraico.jpg" type="image/x-icon">
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="http://www.musicadahora.com/js/bootstrap.js"></script>
+  <script src="http://www.musicadahora.com/js/app.js"></script> 
+    <!--[if lt IE 9]>
+    <script src="http://www.musicadahora.com/js/ie/html5shiv.js"></script>
+    <script src="http://www.musicadahora.com/js/ie/respond.min.js"></script>
+    <script src="http://www.musicadahora.com/js/ie/excanvas.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="http://www.musicadahora.com/js/jquery.navegacao.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/load-mdh.js"></script>
+
+<div id="fb-root"></div>
+<script>
+  var faceauthcdl = 'f';
+  var dumbsta = 1;
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '593281560771952',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/pt_BR/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'pt-BR'}
+</script>
+
+</head>
+<body>
+
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+       <div id="playerpl">
+            <div id="jp_container_1" class="jp-audio bg-player">
+                <div class="jp-type-playlist">
+                    <div class="pce">
+                        <div class="jp-gui jp-interface" style="margin-left: -85px;">
+                            <ul class="jp-controls">
+                                <li><a href="javascript:;" class="jp-previous" tabindex="1"><i class="fa fa-step-backward"></i></a></li>
+                                <div class="btnsplaypause">
+                                    <div class="playpause">
+                                        <li><a href="javascript:;" class="jp-play" tabindex="1"><i class="fa fa-play"></i></a></li>
+                                        <li><a href="javascript:;" class="jp-pause" tabindex="1"><i class="fa fa-pause"></i></a></li>
+                                    </div>
+                                </div>
+                                <li><a href="javascript:;" class="jp-next" tabindex="1"><i class="fa fa-step-forward"></i></a></li>
+                            </ul>
+                            <div class="tempomus">
+                                <div class="jp-current-time"></div>
+                                <div class="jp-barpro">
+                                    <div class="jp-progress">
+                                        <div class="jp-seek-bar">
+                                            <div class="jp-play-bar"></div>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jp-duration"></div>
+                            </div>
+                            <ul class="jp-toggles">
+
+                            </ul>
+
+                            <div class="jp-song-title hidden-xs"><div class="jp-change-title"></div></div>
+                        </div>
+
+                    <div class="pcd">
+                        <div class="btnlim hidden-xs"> <a href="javascript:;" onclick="jplayer_limparLista();" class="jp-clear-playlist" tabindex="1" title="Limpar playlist" data-toggle="tooltip" data-placement="top" title="" data-original-title="Limpar playlist!"><i class="fa fa-trash-o"></i></a></div>
+                        <div class="abrpla hidden-xs"><a title="Abrir playlist!" data-toggle="tooltip" data-placement="top" data-original-title="Abrir playlist!"><i class="icon-list"></i></a></div>
+                        <div class="fecpla hidden-xs"><a title="Fechar playlist!" data-toggle="tooltip" data-placement="top" data-original-title="Fechar playlist!"><i class="icon-list"></i></a></div>
+
+            <div class="jp-mute-gls hidden-xs">
+                              <a class="jp-mute" title="mute"><i class="icon-volume-2"></i></a>
+                              <a class="jp-unmute hid" title="unmute" style="display: none;"><i class="icon-volume-off"></i></a>
+             </div>
+
+             <div class="jp-volume">
+              <div class="jp-volume-bar dk">
+                <div class="jp-volume-bar-value lter"></div>
+                </div>
+             </div>
+
+
+                    </div>
+
+                    </div>
+
+                    <div class="clear"></div>
+                    <div id="playlistmob" class="jp-playlist">
+                        <div class="scrollmod">
+                        <ul style="margin-left:-38px;">
+                            <li></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="jp-no-solution">
+                        <span>Update Required</span>
+                        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="site">
+<section class="vbox">
+
+<script>
+var mywindow = $(window);
+var mypos = mywindow.scrollTop();
+var up = false;
+var newscroll;
+mywindow.scroll(function () {
+    newscroll = mywindow.scrollTop();
+
+    if (newscroll > 150 && !up) {
+        $('.navbar-content-wrapper').stop().slideToggle();
+        up = !up;
+        console.log(up);
+    } else if(newscroll < 200 && up) {
+        $('.navbar-content-wrapper').stop().slideToggle();
+        up = !up;
+    }
+
+   mypos = newscroll;
+});
+</script>
+
+<header class="visible-xs bg-webdf header header-md navbar navbar-fixed-top m-t-lg-2" style="z-index: 100000;">
+   <div class="content-menu-centr" style="width: 950px;">
+      <div class="navbar-header aside bg-white btn-s-sm nav-xs">
+        <a class="btn btn-link visible-xs mn-bt" data-toggle="class:nav-off-screen,open" data-target="#nav,html" style="margin-top: 4px;margin-left: 8px;">
+          <i class="icon-list"></i>
+        </a>
+        <a href="http://www.musicadahora.com/" class="navbar-brand text-lt">
+          <img src="http://www.musicadahora.com/images/logo-mini.png" alt="Música da Hora">
+          <span class="hidden-nav-xs m-l-sm"></span>
+        </a>
+      <a class="buscamob btn btn-link visible-xs" style="margin-top: 2px;" onclick="buscaOpen()">
+          <i class="fa fa-search"></i>
+        </a>      
+      </div>
+
+      <form onsubmit="return buscarc();" id="buscaop" class="navbar-form buscaop disableb navbar-left input-s-lg-l m-b-lg" role="search" style="height: 28px;margin-left: 8px;margin-top: 5px;">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button type="submit" name="FormBuscac" class="btn btn-sm bg-white btn-icon" style="margin-top: -4px;"><i class="fa fa-search"></i></button>
+            </span>
+            <input type="text" name="FormQc" class="form-control input-sm no-border" value="" placeholder="Buscar banda, show ou usuário">
+            <span class="input-group-btn"><a class="clbuscamob visible-xs btn btn-md btn-icon text-white" style="font-size: 20px; margin-left: 8px; margin-top: -7px"><i class="fa fa-times"></i></a></span>
+
+          </div>
+        </div>
+
+
+      </form>
+</div>
+</header>
+
+
+<div id="header-new" class="navbar hidden-xs hed-scroll">
+ <div class="navbar-content-wrapper">
+   <div class="navbar-content">
+     
+     <div class="navbar-left"> 
+      <div class="navbar-search navbar-item" id="nzn-js-search" itemscope="itemscope" itemtype="http://schema.org/WebSite">
+          <meta itemprop="url" content="http://www.musicadahora.com/">
+          <form onsubmit="return buscar();" id="nzn-js-search-form buscaop" class="nzn-search-form" action="" itemprop="potentialAction" itemscope="itemscope" itemtype="http://schema.org/SearchAction">
+          <meta itemprop="target" content="http://www.musicadahora.com/busca/{q}/1/">
+          <input id="nzn-js-search-input" name="FormQ" value="" class="search-input" placeholder="Buscar" type="search" itemprop="query-input" required="required">
+          <button id="nzn-js-search-submit" class="search-submit" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+     </div>
+
+     <div class="navbar-right"> 
+      <div class="redes">
+        <ul class="redes-sociais">
+          <li><a href="http://www.fb.com/sitemusicadahora" target="_blank" alt="Curta-nos no Facebook"><i class="fa fa-facebook" style="color: #DA0000;"></i></a></li>
+          <li><a href="http://www.instagram.com/musicadahora" target="_blank" alt=""><i class="fa fa-instagram" style="color: #DA0000;"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCOUMl7-AmZnrcbdG8Tdg4kg" target="_blank" alt=""><i class="fa fa-youtube" style="color: #DA0000;"></i></a></li>
+        </ul>
+      </div>
+     </div>
+    
+    <div class="navbar-center"> 
+      <a href="http://www.musicadahora.com/" class="navbar-brand" title="Ir para página inicial"> <img src="http://www.musicadahora.com/images/logo-tiff.png" width="180" height="36" alt="Música da Hora"> </a>
+    </div>
+     
+   </div>
+  </div>
+
+  <nav class="navbar-nav-wrapper">
+  <ul class="navbar-nav">
+
+    <li class="navbar-nav-item" data-theme="red-theme"><a href="http://www.musicadahora.com/Modules/Log.php" data-toggle="ajaxModal" title="" class="" data-original-title="Upload de Show no Música da Hora"><span class="btn btn-transpa">Upload</span></a></li>
+
+    
+    <li class="navbar-nav-item" data-theme="red-theme"><a href="http://www.musicadahora.com/Modules/Log.php" data-toggle="ajaxModal" title="Login no Música da Hora" class="navbar-nav-link">Login</a></li>
+    <li class="navbar-nav-item" data-theme="red-theme"><a href="http://www.musicadahora.com/cadastro/" title="Cadastro no Música da Hora" class="navbar-nav-link">Cadastro</a></li>
+
+    <li class="navbar-nav-item" data-theme="red-theme">
+      <span class="navbar-nav-link">Gêneros <i class="fa fa-angle-down m-l-xs"></i></span>
+      <div class="navbar-subnav-wrapper">
+        <div class="navbar-subnav-content">
+          <ul class="navbar-subnav">
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/axe/0.html" title="Axé no Música da Hora" class="navbar-subnav-link">Axé</a>
+            </li>
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/arrocha/0.html" title="Arrocha no Música da Hora" class="navbar-subnav-link">Arrocha</a>
+            </li>
+            
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/forro/0.html" title="Forró no Música da Hora" class="navbar-subnav-link">Forró</a>
+            </li>
+            
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/funk/0.html" title="Funk no Música da Hora" class="navbar-subnav-link">Funk</a>
+            </li>
+            </ul>
+            <ul class="navbar-subnav">
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/sertanejo/0.html" title="Sertanejo no Música da Hora" class="navbar-subnav-link">Sertanejo</a>
+            </li>
+            
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/mpb/0.html" title="MPB no Música da Hora" class="navbar-subnav-link">MPB</a>
+            </li>
+            
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/gospel/0.html" title="Gospel no Música da Hora" class="navbar-subnav-link">Gospel</a>
+            </li>
+            
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/generos/outros/0.html" title="Outros estilos de música no Música da Hora" class="navbar-subnav-link">Outros...</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </li>    
+
+
+    <li class="navbar-nav-item" data-theme="red-theme">
+      <span class="navbar-nav-link">Mais Baixados <i class="fa fa-angle-down m-l-xs"></i></span>
+      <div class="navbar-subnav-wrapper">
+        <div class="navbar-subnav-content">
+          <ul class="navbar-subnav">
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/mais-baixados/" title="Mais baixados - Geral - Música da Hora" class="navbar-subnav-link">Geral</a>
+            </li>
+
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/mais-baixados/semanal.html" title="Mais baixados - Semanal - Música da Hora" class="navbar-subnav-link">Semanal</a>
+            </li>
+
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/mais-baixados/mes.html" title="Mais baixados - Mensal - Música da Hora" class="navbar-subnav-link">Mensal</a>
+            </li>
+
+            <li class="navbar-subnav-item">
+              <a href="http://www.musicadahora.com/mais-baixados/anual.html" title="Mais baixados - Anual - Música da Hora" class="navbar-subnav-link">Anual</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </li>    
+
+    <li class="navbar-nav-item" data-theme="red-theme"><a href="http://www.musicadahora.com/sobre/" title="Sobre o Música da Hora" class="navbar-nav-link">Sobre</a></li>
+    <li class="navbar-nav-item" data-theme="red-theme"><a href="http://www.musicadahora.com/artistas/" title="Artistas no Música da Hora" class="navbar-nav-link">Artistas</a></li>
+    <li class="navbar-nav-item" data-theme="red-theme"><a href="http://www.musicadahora.com/contato/" title="Contato com o Música da Hora" class="navbar-nav-link">Contato</a></li>
+  </ul>
+  </nav>
+
+</div>
+
+<div id="wfl-23DLF">
+
+    <section class="relativos">
+
+
+
+
+
+
+
+
+
+<!-- .aside -->
+        <aside class="bg-danger lt aside hidden-print visible-xs" id="nav" style="margin-top: 40px;margin-left: -6px !important;">          
+          <section class="vbox">
+            <section class="w-f-md scrollable">
+              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
+            
+                <!-- nav -->                 
+                <nav class="nav-primary hidden-xs">
+                  <ul class="nav bg clearfix m-t-xl">
+
+                    <li>
+                      <a href="http://www.musicadahora.com/" alt="Principal">
+                        <i class="icon-disc icon text-white"></i>
+                        <span class="font-bold">Principal</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.musicadahora.com/novidades/">
+                        <i class="icon-music-tone-alt icon text-white"></i>
+                        <span class="font-bold">Shows</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.musicadahora.com/mais-baixados/">
+                        <i class="fa fa-arrow-circle-o-down text-white"></i>
+                        <span class="font-bold">Mais baixados</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.musicadahora.com/Login.php" alt="Login">
+                        <i class="icon-drawer icon text-white"></i>
+                        <span class="font-bold">Login</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.musicadahora.com/cadastro/" alt="Cadastro">
+                        <i class="fa fa-gears text-white"></i>
+                        <span class="font-bold">Cadastro</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.musicadahora.com/artistas/" alt="Artistas">
+                        <i class="icon-list icon  text-white"></i>
+                        <span class="font-bold">Artistas</span>
+                      </a>
+                    </li>
+                    <li class="m-b hidden-nav-xs"></li>
+                  </ul>
+
+                </nav>
+                <!-- / nav -->
+              </div>
+            </section>
+
+          </section>
+        </aside>
+        <!-- /.aside -->
+
+      <section class="hbox stretch content-menu-centr m-t-lg-2">
+        <section id="content">
+          <section class="hbox stretch">
+            <section>
+              <section class="vbox animated fadeInUp bg-mod" style="">
+
+<section class="padder-lg w-f-md" id="bjax-target" style="margin-top: 180px;">
+<div id="padder-content">
+<script type="text/javascript" src="http://www.musicadahora.com/js/load-cadastro.js"></script>
+
+<div class="col-md-8">
+    <div class="h1modif"><h3 class="font-thin">Cadastro</h3></div>
+
+    <div class="r m-b-md bg-white wrapper-md b-b">
+
+
+
+<form name="FormCad" id="FormCad" role="form" method="post" data-validate="parsley" action="" enctype="multipart/form-data" class="standart-form">
+<div class="form-group pull-in clearfix">
+                        <div class="col-sm-6">
+                          <label>Nome Completo *</label>
+                          <input type="text" name="Nome" class="form-control" value="" placeholder="Seu nome...">
+                        </div> 
+
+                        <div class="col-sm-6">
+                          <label>Apelido de Usuário (Nome público.) *</label>
+                          <div id="ApelidoForm" class=""><input type="text" name="apelidoUsuario" value="" class="apld form-control" placeholder="Apelido..."></div>
+                        </div>
+</div>
+                        <div class="form-group">
+                          <label>Email *</label>
+                          <div id="EmailForm" class=""> <input type="text" name="emailUsuario" value="" class="form-control" placeholder="Email.."></div>
+                        </div>
+
+<div class="form-group pull-in clearfix">
+                        <div class="col-sm-4">
+                          <label>Facebook</label>
+                          <input type="text" name="Facebook" value="" class="form-control" placeholder="/Facebook">
+                        </div>
+
+                        <div class="col-sm-4">
+                          <label>Instagram</label>
+                          <input type="text" name="Instagram" value="" class="form-control" placeholder="@Instagram">
+                        </div>
+
+                        <div class="col-sm-4">
+                          <label>Twitter</label>
+                          <input type="text" name="Twitter" value="" class="form-control" placeholder="@Twitter">
+                        </div>
+
+                        <div class="col-sm-6 m-t-xs">
+                          <label>Estado *</label>
+<select name="cod_estados" id="cod_estados" class="form-control">
+      <option value=""></option>
+      <option value="1">AC</option><option value="2">AL</option><option value="4">AM</option><option value="3">AP</option><option value="5">BA</option><option value="6">CE</option><option value="7">DF</option><option value="8">ES</option><option value="10">GO</option><option value="11">MA</option><option value="14">MG</option><option value="13">MS</option><option value="12">MT</option><option value="15">PA</option><option value="16">PB</option><option value="18">PE</option><option value="19">PI</option><option value="17">PR</option><option value="20">RJ</option><option value="21">RN</option><option value="23">RO</option><option value="9">RR</option><option value="22">RS</option><option value="25">SC</option><option value="27">SE</option><option value="26">SP</option><option value="24">TO</option>    </select>
+                        </div>
+
+
+<div class="col-sm-6 m-t-xs">
+<label>Cidade *</label>
+    <select name="cod_cidades" id="cod_cidades" class="form-control">
+      <option value="">-- Escolha um estado --</option>
+    </select>
+</div>
+
+</div>
+
+
+                        <div class="form-group">
+                          <label class="control-label">Data de Nascimento *</label>
+                          <div>
+                            <input class="input-sm input-s datepicker-input form-control" size="16" name="DataDeNascimentto" type="text" placeholder="Ex: 30/09/1996" data-date-format="dd/mm/yyyy">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label>Senha *</label>
+                          <input type="password" name="Senha" class="form-control" placeholder="Senha..">
+                        </div>
+
+              <p>Clicando em "Cadastre-se", você aceita as Condições gerais de uso.</p>
+
+                        <input type="submit" name="FormCad" class="btn btn-md btn-primary" value="Cadastrar-se">
+</form>
+    </div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="m-b-md">
+  <div class="h1modif"><h3 class="font-thin h1modif">Seja bem-vindo!</h3></div>
+    <div class="r m-b-md bg-white wrapper-md b-b">
+    <a href="https://www.facebook.com/dialog/oauth?client_id=728472007261374&redirect_uri=http://www.musicadahora.com/Login.php&scope=public_profile,email,user_friends" style="margin-left:-6px;margin-bottom: 2px;"><img src="http://www.musicadahora.com/images/logarViaFacebook.png" alt="Login via Facebook"></a>
+    <br/>
+    <br/>
+    Ouça, descubra, e leve sua música a todo e qualquer lugar.
+    </div>
+</div>
+
+
+
+<div class="m-b-md">
+  <div class="h1modif"><h3 class="font-thin h1modif">Recomendamos</h3></div>
+                      <div class="list-group bg-white list-group-lgg no-bg auto"> 
+<a href="http://www.musicadahora.com/artistas/avioes-do-forro.html" class="list-group-item clearfix">
+                          <div class="pull-left thumb avatar m-r">
+                            <img src="http://www.musicadahora.com/images/artistas/xandesol.jpg" alt="Aviões do Forró">
+                          </div>
+                          <div class="clear">
+                            <span class="font-bold" style="font-size: 15px;">Aviões do Forró</span><br/>
+                            <small class="text-muted clear text-ellipsis pull-left"><button class="btn btn-xs btn-dark btn-rounded"><i class="fa fa-chevron-right text-white"></i> Visualizar</button></small>
+                          </div>
+</a>
+<a href="http://www.musicadahora.com/artistas/wesley-safadao.html" class="list-group-item clearfix">
+                          <div class="pull-left thumb avatar m-r">
+                            <img src="http://www.musicadahora.com/images/artistas/ws-perfil.jpg" alt="Wesley Safadão">
+                          </div>
+                          <div class="clear">
+                            <span class="font-bold" style="font-size: 15px;">Wesley Safadão</span><br/>
+                            <small class="text-muted clear text-ellipsis pull-left"><button class="btn btn-xs btn-dark btn-rounded"><i class="fa fa-chevron-right text-white"></i> Visualizar</button></small>
+                          </div>
+</a>
+<a href="http://www.musicadahora.com/artistas/gabriel-diniz.html" class="list-group-item clearfix">
+                          <div class="pull-left thumb avatar m-r">
+                            <img src="http://www.musicadahora.com/images/artistas/gd-perfil.jpg" alt="Gabriel Diniz">
+                          </div>
+                          <div class="clear">
+                            <span class="font-bold" style="font-size: 15px;">Gabriel Diniz</span><br/>
+                            <small class="text-muted clear text-ellipsis pull-left"><button class="btn btn-xs btn-dark btn-rounded"><i class="fa fa-chevron-right text-white"></i> Visualizar</button></small>
+                          </div>
+</a>
+
+                      </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+</section>
+
+
+
+              </section>
+
+
+            </section>
+          </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
+        </section>
+
+      </section>
+    </section>
+   </div>
+  </section>
+</div>
+
+
+<div class="footer_social b-b wrapper-xs hidden-xs">
+      <div class="containers">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+            <a href="http://www.facebook.com/sitemusicadahora"><img src="http://www.musicadahora.com/images/mdh-face-1.jpg" alt="Face"></a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+            <a href="http://www.instagram.com/musicadahora"><img src="http://www.musicadahora.com/images/mdh-insta-2.jpg" alt="Face"></a>
+          </div>
+          
+          <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+            <a href="https://www.youtube.com/channel/UCOUMl7-AmZnrcbdG8Tdg4kg"><img src="http://www.musicadahora.com/images/mdh-youtube-3.jpg" alt="Face"></a>
+          </div>
+
+        </div>
+      </div>
+</div>
+
+
+<div class="footer_area">
+      <div class="container">
+        <div class="row">
+                              <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
+            <div class="single_footer_widget">
+              <h3>Minha Conta</h3>
+              <ul>
+                <li><a href="http://www.musicadahora.com//cadastro/">Cadastro</a></li>
+                <li><a href="http://www.musicadahora.com//Login.php">Login</a></li>
+              </ul>
+            </div>
+          </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
+            <div class="single_footer_widget first_footer_widget">
+              <h3>Estilos Musicais</h3>
+              <ul>
+                <li><a href="/categoria/arrocha">Arrocha</a></li>
+                <li><a href="/categoria/axe">Axé</a></li>
+                <li><a href="/categoria/brega">Brega</a></li>
+                <li><a href="/categoria/forro">Forró</a></li>
+                <li><a href="/categoria/funk">Funk</a></li>
+                <li><a href="/categoria/pagode">Pagode</a></li>
+                <li><a href="/categoria/reggae">Reggae</a></li>
+                <li><a href="/categoria/samba">Samba</a></li>
+                <li><a href="/categoria/sertanejo">Sertanejo</a></li>
+                <li><a href="/categoria/swingueira">Swingueira</a></li>
+                <li><a href="/categoria/variados">Variados</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
+            <div class="single_footer_widget">
+              <h3>Mais baixados</h3>
+              <ul>
+                <li><a href="http://www.musicadahora.com//mais-baixados/mes.html">Mensal</a></li>
+                <li><a href="http://www.musicadahora.com//mais-baixados/semanal.html">Semanal</a></li>
+                <li><a href="http://www.musicadahora.com//mais-baixados/anual.html">Anual</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="footer_bottom_area hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="copyright_text">
+              <p>Feito com  <i class="fa fa-heart text-xs"></i> no Nordeste.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+
+
+  <script src="http://www.musicadahora.com/js/jquery.form.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/funcoes.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/jquery.easing.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/file-input/fileinput.min.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/slimscroll/jquery.slimscroll.min.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/chosen/chosen.jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/datepicker/bootstrap-datepicker.js"></script>
+  <script type="text/javascript" src="http://www.musicadahora.com/js/datatables/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="http://www.musicadahora.com/js/global.js"></script>
+    <script src="http://www.musicadahora.com/js/ekko-lightbox.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+          event.preventDefault();
+          return $(this).ekkoLightbox({
+            always_show_close: true
+          });
+        });
+
+      });
+    </script>
+
+  <!-- wysiwyg -->
+  <script src="http://www.musicadahora.com/js/wysiwyg/jquery.hotkeys.js"></script>
+  <script src="http://www.musicadahora.com/js/wysiwyg/bootstrap-wysiwyg.js"></script>
+  <script src="http://www.musicadahora.com/js/wysiwyg/demo.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64776420-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script>
+
+
+function buscar() {
+
+    var termo = document.getElementsByName("FormQ")[0].value;
+    carregarPagina("http://www.musicadahora.com/busca/"+termo+"/1/");
+
+    return false;
+}
+
+function buscarc() {
+    var termo = document.getElementsByName("FormQc")[0].value;
+    carregarPagina("http://www.musicadahora.com/busca/"+termo+"/1/");
+
+    return false;
+}
+
+
+(function() {
+    
+var bar = $('.progress-bar');
+var percent = $('.percent');
+var status = $('#status');
+ 
+ 
+$('form').ajaxForm({
+    beforeSend: function() {
+        status.empty();
+        var percentVal = '0%';
+        bar.width(percentVal)
+        percent.html(percentVal);
+    },
+    uploadProgress: function(event, position, total, percentComplete) {
+        var percentVal = percentComplete + '%';
+        bar.width(percentVal)
+        percent.html(percentVal);
+    },
+    success: function() {
+        var percentVal = '100%';
+        bar.width(percentVal)
+        percent.html(percentVal);
+    },
+  
+  complete: function(xhr) {
+    status.html(xhr.responseText);
+    $("#Show-Swi").hide("slow");
+    $("#Show-Title").hide("slow");
+  }
+}); 
+
+})(); 
+</script>
+</body>
+</html>
